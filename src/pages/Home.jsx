@@ -1,14 +1,14 @@
 import React from 'react'
-import music from './'
 import { Login } from './Login'
-import music from "../assets"
+import music from "../assets/spotify.png"
+import "./Home.css"
 
 export const Home = () => {
     return (
         <>
             <div className="nav">
                 <div className='image'>
-                    img src={music}
+                    <img src={music} />
                 </div>
                 <div className="s">Spotify</div>
                 <div className="P">Premium</div>

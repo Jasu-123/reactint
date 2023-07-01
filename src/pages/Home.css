@@ -1,0 +1,37 @@
+body {
+    body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: chocolate;
+    }
+}
+
+.nav {
+    height: 100px;
+    width: auto;
+    display: flex;
+    align-items: center;
+
+}
+
+.nav img {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+.S {
+    color: black;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.P,
+.H,
+.D {
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+}
